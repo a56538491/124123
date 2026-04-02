@@ -44,7 +44,7 @@ export default function App() {
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                 <div className="w-4 h-4 border-2 border-white rounded-sm"></div>
               </div>
-              <span className={`text-xl font-bold tracking-tight ${isScrolled ? 'text-slate-900' : 'text-white'}`}>FORMEX</span>
+              <span className={`text-xl font-bold tracking-tight ${isScrolled ? 'text-slate-900' : 'text-white'}`}>TOKOP</span>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ export default function App() {
             transition={{ duration: 0.8 }}
             className="text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight mb-6 leading-tight"
           >
-            Unleash the growth<br />within your business
+            Start Your Online Store<br />With Zero Risk
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -76,7 +76,7 @@ export default function App() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto"
           >
-            Sodales tempor sapien quaerat magnis sapien sagittis quaerat tempor habitant volute aliquet molestie gravida sagittis ipsum inceptos
+            Join Tokop, the most innovative cross-border e-commerce platform. Connect directly with 2 million+ premium factories and sell to 1 billion+ buyers globally without holding any inventory.
           </motion.p>
           <motion.button 
             initial={{ opacity: 0, y: 20 }}
@@ -86,7 +86,7 @@ export default function App() {
             whileTap={{ scale: 0.95 }}
             className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-medium text-lg transition-colors shadow-lg shadow-blue-600/30"
           >
-            Discover More
+            Start Selling Now
           </motion.button>
         </div>
       </section>
@@ -96,9 +96,9 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-12">
             {[
-              { icon: Zap, title: 'Digital Marketing', desc: 'Porta semper primis in feugiat hendrerit feugiat lacus cursus dapibus and primis sagittis' },
-              { icon: Layers, title: 'Content Strategy', desc: 'Porta semper primis in feugiat hendrerit feugiat lacus cursus dapibus and primis sagittis' },
-              { icon: BarChart3, title: 'Data & Analytics', desc: 'Porta semper primis in feugiat hendrerit feugiat lacus cursus dapibus and primis sagittis' }
+              { icon: Zap, title: 'Zero Inventory Risk', desc: 'No need to buy stock upfront. Choose from 10 million+ best-selling products and only pay the factory when you make a sale.' },
+              { icon: Layers, title: 'Direct from Factory', desc: 'Cut out the middlemen. We connect you directly with over 2 million premium factories, ensuring the best prices.' },
+              { icon: BarChart3, title: 'Global Reach', desc: 'Access over 1 billion active buyers across 200 countries. We handle the global marketing so you can focus on growing.' }
             ].map((feature, i) => (
               <motion.div 
                 key={i}
@@ -173,26 +173,25 @@ export default function App() {
             >
               <div className="text-sm font-bold tracking-wider text-slate-400 uppercase mb-3 flex items-center gap-4">
                 <span className="w-8 h-px bg-slate-300"></span>
-                ONE-STOP SOLUTIONS
+                INNOVATIVE DROPSHIPPING
               </div>
-              <h2 className="text-4xl font-bold mb-6 text-slate-900 leading-tight">Digital marketing that drives results</h2>
+              <h2 className="text-4xl font-bold mb-6 text-slate-900 leading-tight">Revolutionizing traditional e-commerce</h2>
               <p className="text-slate-500 mb-8 text-lg">
-                Sapien tempor sodales bibendum convallis in volutpat morbi veles fusce laoreet sapien undo neque mauris vitae habitant inceptos and ligula luctus ipsum habitant dignissim fusce
+                Traditional retail involves long supply chains and high markups. Traditional e-commerce requires heavy investment in inventory, marketing, and logistics. Tokop eliminates these barriers, making entrepreneurship accessible to everyone.
               </p>
               
-              <h3 className="text-xl font-bold mb-4">Do more in less time</h3>
-              <ul className="space-y-4">
+              <ul className="space-y-4 mb-10">
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-blue-600 flex-shrink-0" />
-                  <span className="text-slate-600">Cursus purus suscipit vitae sociis cubilia magnis habitant an egestas vitae sapien turpis ultrice congue varius</span>
+                  <span className="text-slate-600">Free registration with just your personal ID</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-blue-600 flex-shrink-0" />
-                  <span className="text-slate-600">Volute turpis dolores and sagittis magna undo bibendum laoreet sapien in mauris undo neque vitae habitant</span>
+                  <span className="text-slate-600">Set your own profit margins freely on any product</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-blue-600 flex-shrink-0" />
-                  <span className="text-slate-600">Volute turpis dolores and sagittis congue</span>
+                  <span className="text-slate-600">Factories handle all shipping and logistics directly to buyers</span>
                 </li>
               </ul>
             </motion.div>
@@ -204,7 +203,7 @@ export default function App() {
       <section className="py-10 border-y border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-50 grayscale">
-            {['omnia', 'disco', 'plix', 'LOGO DESIGN', 'Digital Deetales', 'BRAND PREMIUM', 'nex'].map((logo, i) => (
+            {['Global Reach', 'Secure Escrow', 'Zero Risk', '2M+ Factories', '1B+ Buyers', 'Big Data', 'Fast Shipping'].map((logo, i) => (
               <div key={i} className="text-xl md:text-2xl font-bold font-serif">{logo}</div>
             ))}
           </div>
@@ -221,17 +220,20 @@ export default function App() {
             transition={{ duration: 0.6 }}
             className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8"
           >
-            <h2 className="text-4xl font-bold text-slate-900 max-w-md leading-tight">Flexible solutions for all your needs</h2>
+            <h2 className="text-4xl font-bold text-slate-900 max-w-md leading-tight">Everything you need to succeed</h2>
             <p className="text-slate-500 max-w-md text-lg">
-              Aliquam a augue suscipit luctus blandit lacinia purus ipsum neque diam primis dolor and libero tempus, blandit magna cursus varius sodales
+              Tokop provides a comprehensive ecosystem designed to protect buyers, empower sellers, and streamline operations for factory suppliers.
             </p>
           </motion.div>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { icon: Users, title: 'User Experience', desc: 'Porta semper lacus cursus and feugiat mauris hendrerit ultrice dignissim risus auctor tempus' },
-              { icon: Award, title: 'Brand Identity', desc: 'Porta semper lacus cursus and feugiat mauris hendrerit ultrice dignissim risus auctor tempus' },
-              { icon: Target, title: 'Competitor Analysis', desc: 'Porta semper lacus cursus and feugiat mauris hendrerit ultrice dignissim risus auctor tempus' }
+              { icon: Shield, title: 'Secure Transactions', desc: 'Our escrow system ensures funds are only released when the buyer is satisfied with their purchase.' },
+              { icon: Target, title: 'Hassle-Free Returns', desc: 'If a customer is unsatisfied, factories handle the returns and bear the shipping costs. You lose nothing.' },
+              { icon: BarChart3, title: 'Big Data Selection', desc: 'We use advanced analytics to curate 10 million global best-sellers for you to add to your store.' },
+              { icon: Zap, title: 'Zero Startup Cost', desc: 'No registration fees, no monthly subscriptions. Start your entrepreneurial journey completely free.' },
+              { icon: Layers, title: 'Automated Logistics', desc: 'Once an order is placed, the factory automatically receives the details and ships directly to your buyer.' },
+              { icon: Users, title: 'Global Marketing', desc: 'Benefit from our massive search ad campaigns across 200 countries, driving traffic to the platform.' }
             ].map((item, i) => (
               <motion.div 
                 key={i} 
@@ -268,23 +270,23 @@ export default function App() {
             >
               <div className="text-sm font-bold tracking-wider text-slate-400 uppercase mb-3 flex items-center gap-4">
                 <span className="w-8 h-px bg-slate-300"></span>
-                ENDLESS POSSIBILITIES
+                HOW IT WORKS
               </div>
-              <h2 className="text-4xl font-bold mb-10 text-slate-900 leading-tight">Achieve more with better workflows</h2>
+              <h2 className="text-4xl font-bold mb-10 text-slate-900 leading-tight">A simple, secure, and profitable process</h2>
               
               <div className="space-y-4">
                 <AccordionItem 
-                  title="Personalized Strategy" 
-                  content="Sapien tempor sodales and quaerat ipsum congue in turpis laoreet neque auctor vitae feugiat dolor luctus placerat and bibendum ligula cursus purus vitae an auctor placerat"
+                  title="1. Setup Your Store" 
+                  content="Register for free using your ID. Browse our factory supplier center and select products you want to sell. Publish them to your store and set your desired profit margin."
                   isOpen={true}
                 />
                 <AccordionItem 
-                  title="Transforming Solutions" 
-                  content="Aliquam nullam tempor malesuada a sapien gravida donec porta congue ipsum tempor a lacus suscipit auctor in habitant egestas."
+                  title="2. Secure Order Processing" 
+                  content="When a buyer orders, their payment is securely held in escrow. You pay the factory cost, and the factory ships the product directly to the buyer."
                 />
                 <AccordionItem 
-                  title="Automated Workflows" 
-                  content="Porta semper lacus cursus and feugiat mauris hendrerit ultrice dignissim risus auctor tempus sodales tempor sapien quaerat."
+                  title="3. Earn & Grow" 
+                  content="Once the buyer receives the product and is satisfied, the transaction is complete. The funds are unfrozen, and your profit is ready to be withdrawn."
                 />
               </div>
             </motion.div>
@@ -336,7 +338,7 @@ export default function App() {
               transition={{ duration: 0.6 }}
               className="w-full lg:w-1/2 order-2 lg:order-1 relative"
             >
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl max-w-md mx-auto">
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl max-w-md mx-auto bg-slate-100">
                 <img 
                   src="https://images.unsplash.com/photo-1531123897727-8f129e1bfe8a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
                   alt="Smiling woman" 
@@ -365,21 +367,21 @@ export default function App() {
             >
               <div className="text-sm font-bold tracking-wider text-slate-400 uppercase mb-3 flex items-center gap-4">
                 <span className="w-8 h-px bg-slate-300"></span>
-                STRATEGIES THAT WORK
+                EMPOWERING ENTREPRENEURS
               </div>
-              <h2 className="text-4xl font-bold mb-6 text-slate-900 leading-tight">The growth engine for your business</h2>
+              <h2 className="text-4xl font-bold mb-6 text-slate-900 leading-tight">Built by Tokopedia Group in 2020</h2>
               <p className="text-slate-500 mb-10 text-lg">
-                Sapien tempor sodales bibendum convallis in volutpat morbi veles fusce laoreet sapien undo neque mauris vitae habitant inceptos and ligula luctus ipsum a habitant dignissim
+                Our mission is to empower individuals in Southeast Asia and beyond to start their own online businesses easily. By connecting buyers directly to factories, we reduce costs and create opportunities for everyone.
               </p>
               
               <div className="flex gap-12 mb-12">
                 <div>
-                  <div className="text-5xl font-bold text-slate-900 mb-2">58k</div>
-                  <div className="text-sm text-slate-500">Porta justo integer<br/>a velna vitae auctor</div>
+                  <div className="text-5xl font-bold text-slate-900 mb-2">2M+</div>
+                  <div className="text-sm text-slate-500">Premium Factory<br/>Suppliers</div>
                 </div>
                 <div>
-                  <div className="text-5xl font-bold text-slate-900 mb-2">77%</div>
-                  <div className="text-sm text-slate-500">Porta justo integer<br/>a velna vitae auctor</div>
+                  <div className="text-5xl font-bold text-slate-900 mb-2">66M+</div>
+                  <div className="text-sm text-slate-500">Products Added<br/>Quarterly</div>
                 </div>
               </div>
 
@@ -403,9 +405,9 @@ export default function App() {
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
-            <h2 className="text-4xl font-bold text-slate-900 max-w-md leading-tight">Easy integrations with essential tools</h2>
+            <h2 className="text-4xl font-bold text-slate-900 max-w-md leading-tight">Trusted by millions globally</h2>
             <p className="text-slate-500 max-w-md text-lg">
-              Aliquam a augue suscipit luctus blandit lacinia purus ipsum neque diam primis dolor and libero tempus, blandit magna cursus varius sodales
+              Join a thriving ecosystem of buyers, sellers, and suppliers working together in a secure, innovative marketplace.
             </p>
           </div>
 
@@ -422,7 +424,7 @@ export default function App() {
 
           <div className="text-center">
             <button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full font-medium transition-colors">
-              View All Integrations
+              Join the Platform
             </button>
           </div>
         </div>
@@ -693,12 +695,12 @@ export default function App() {
           <div className="absolute inset-0 bg-slate-900/80 mix-blend-multiply"></div>
         </div>
         <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Starting with Formex is easy, fast and free!</h2>
-          <p className="text-xl text-slate-300 mb-10">It only takes a few clicks to get started</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Start your Tokop store today!</h2>
+          <p className="text-xl text-slate-300 mb-10">Join the most innovative e-commerce platform and build your business with zero risk.</p>
           <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-medium text-lg transition-colors shadow-lg shadow-blue-600/30 mb-6">
-            Get started - it's free
+            Register for Free
           </button>
-          <p className="text-sm text-slate-400">Free 14 days trial | No credit card needed</p>
+          <p className="text-sm text-slate-400">No inventory required | Secure transactions</p>
         </div>
       </section>
 
@@ -711,10 +713,10 @@ export default function App() {
                 <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                   <div className="w-4 h-4 border-2 border-white rounded-sm"></div>
                 </div>
-                <span className="text-xl font-bold tracking-tight text-slate-900">FORMEX</span>
+                <span className="text-xl font-bold tracking-tight text-slate-900">TOKOP</span>
               </div>
               <p className="text-slate-500 text-sm max-w-xs leading-relaxed">
-                Aliquam nullam tempor malesuada a sapien gravida donec porta congue ipsum tempor a lacus suscipit auctor in habitant egestas
+                The most innovative cross-border e-commerce platform. Empowering everyone to start an online store with zero cost and zero risk.
               </p>
             </div>
             
